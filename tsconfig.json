@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+        "target": "esnext",
+        "module": "esnext",
+        "moduleResolution": "node",
+        "strict": true, // Enable strict type-checking options
+        "jsx": "preserve",
+        "allowJs": true,
+        "lib": ["dom"],
+        "typeRoots": ["./node_modules/@types", "./resources/js/types"]
+    },
+    "include": ["resources/js/**/*"] // Frontend paths pattern
+}
